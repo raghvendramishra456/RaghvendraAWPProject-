@@ -1,0 +1,36 @@
+body{
+     color: white;
+     background-color: #117a8b;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#add{
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 150px;
+    text-align: center;
+  
+}
+#tex{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+#img1{
+    border-radius: 50%;
+    height: 110px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 110px;
+}
+#phone{
+    border: 1px solid black;
+    width: 300px;
+    margin-top: -440px;
+    margin-left: 620px;
+}

@@ -1,0 +1,76 @@
+body{
+     color: white;
+     height: 900px;
+    width: 100%;
+    alignment-adjust: central;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/ContactUsBackgroundbanner.jpg');
+    
+}
+h1{
+    
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+#img2{
+    border-radius: 50%;
+    height: 110px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 110px;
+}
+
+#add{
+    /*border: 1px solid white;*/
+    width: 500px;
+    margin-left: 250px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    height: 800px;
+      alignment-adjust: central;
+}
+
+#tex{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+#tex1{
+    color: black;
+}
+
+#img1{
+    border-radius: 50%;
+    height: 110px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 110px;
+}
+#phone{
+    /*border: 1px solid black;*/
+    width: 300px;
+    margin-top: -440px;
+    margin-left: 620px;
+}
+
+#address{
+    /*border: 1px solid white;*/
+    width: 400px;
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    
+      alignment-adjust: central;
+}
+.a:hover{
+    
+    background-color: transparent;
+    transform: scale(1.25);
+    box-shadow: 4px;
+    border-radius: 10px 10px 10px 10px;
+}

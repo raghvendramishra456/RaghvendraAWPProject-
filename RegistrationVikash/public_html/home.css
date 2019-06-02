@@ -1,0 +1,27 @@
+*{
+   margin: 0px;
+   padding: 0px''
+}
+
+body{
+    background-image: url('images/maxresdefault.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.btn{
+  background-color: lightblue;
+}
+.form-control{
+    background-color: lightgray;
+}
+
+.btn:hover{
+    background-color:  darksalmon;
+    transition-duration: 0.3s;
+}
+.container{
+    background-color: transparent;
+}
+

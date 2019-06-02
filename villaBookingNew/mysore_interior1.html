@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>rooms</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        
+        <style>
+            
+            .carousel-inner .carousel-item {
+           transition: -webkit-transform 2s ease;
+           transition: transform 2s ease;
+           transition: transform 2s ease, -webkit-transform 2s ease;
+}    
+              
+            
+        </style>
+        
+        
+        
+    </head>
+    <body style="padding-top:80px">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+              
+                    <a class="navbar-brand" href="#">
+                         <img src="images/logonew.jpg"style="width:50px;height:40px" alt=""/>
+                         WonderVillaz
+                    </a>
+                          
+               <ul class="navbar-nav mr-auto">
+                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a href="#" class="nav-link active"><i class="fas fa-home"></i>Home</a>   
+                </li>
+                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                 <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target">
+                        <i class="fas fa-city"></i>Cities
+                       
+                    </a>   
+                     <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                         
+                         <a href="goa_villa.html" class="dropdown-item" target="_blank">Goa</a>
+                         
+                          <a href="manali_villa.html" class="dropdown-item">Manali</a>
+                          
+                            <a href="mysore_villa.html" class="dropdown-item">Mysore</a>
+                          
+                             <a href="udaipur_villa.html" class="dropdown-item">Udaipur</a>
+                    </div>
+                </li>
+                 
+                 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                 <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a> 
+                    
+                </li>
+                
+               
+              </ul>
+               
+                    <form>
+                        <div class="input-group">
+                        <input type="text">
+                        <div class="input-group-append">
+                        <input type="button" value="search" class="btn btn-success">
+                        </div>
+                        </div>
+                    </form> 
+                    
+                     <button type="button" class="btn btn-dark float-right offset-1" data-toggle="modal" data-target="#model1" style="background-color:blue" ><a href="#"></a>Sign Up</button>
+                     <button type="button" class="btn btn-dark float-right" data-toggle="modal" data-target="#model2" style="background-color:blue" ><a href="#"></a>Login</button>
+
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    
+                   
+                    
+            </nav>
+            
+
+
+            <div id="magicCarousel" class="carousel slide" data-ride="carousel" data-interval="500">
+                <ol class="carousel-indicators">
+                    <li data-target="#magicCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#magicCarousel" data-slide-to="1"></li>
+                    <li data-target="#magicCarousel" data-slide-to="2"></li>
+                    <li data-target="#magicCarousel" data-slide-to="3"></li>
+                    <li data-target="#magicCarousel" data-slide-to="4"></li>
+                    
+                    
+                </ol>
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="mysore_villas_images/mysorevillar11.webp" style="height:570px "alt="first slide">
+                        <div class="carousel-caption">
+                            <h3>villa</h3>
+                            <p>Mysore</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="mysore_villas_images/mysorevillar16.webp" style="height:570px" alt="second slide">
+                        <div class="carousel-caption">
+                            <h3>villa</h3>
+                            <p>Mysore</p>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="mysore_villas_images/mysorevillar14.webp" style="height:570px" alt="third slide">
+                        <div class="carousel-caption">
+                            <h3>villa</h3>
+                            <p>Mysore</p>
+                        </div>
+                    </div>
+                    
+                    
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="mysore_villas_images/mysorevillar13.webp" style="height:570px" alt="fourth slide">
+                        <div class="carousel-caption">
+                            <h3>villa</h3>
+                            <p>Mysore</p>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="mysore_villas_images/mysorevillar15.webp" style="height:570px"  alt="fifth slide">
+                        <div class="carousel-caption">
+                            <h3>villa</h3>
+                            <p>Mysore</p>
+                        </div>
+                    </div>
+
+
+
+                
+                <a class="carousel-control-prev" href="#magicCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">previous</span>
+                </a>
+
+
+                <a class="carousel-control-next" href="#magicCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">next</span>
+                </a>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </body>
+</html>

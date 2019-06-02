@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        
+        <title>GOA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+        body{ 
+              height:45vh;
+              width:97%;
+              background-size: cover;
+              background-position: center;
+              background-image:url("goa_villas_images/goa-beach-view-nature.jpg");
+         
+/*            background-attachment: fixed;*/
+              background-repeat: no-repeat;
+            }
+        
+         
+        
+            .top{
+                
+                 margin-top: 100px;
+                 margin-left: 80px;
+                 background-color:transparent;
+                
+            }
+        
+            .card{
+               
+                width:500px;
+                height:600px;
+                
+            }
+            img{
+                width:400px;
+                height:200px;
+            }
+            #images{
+                height:50px;
+                width: 80px;
+            }
+            
+            #c1:hover{
+                box-shadow: 10px 10px graytext;
+            }
+        
+        
+      
+       </style>
+        
+        
+    </head>
+    
+    <body>
+         <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+              
+                  <a class="navbar-brand" href="#">
+                          
+                          <img src="images/logonew.jpg" style="width:70px;height:50px" id="images" alt=""/>
+                          WonderVillaz
+                  </a>
+                
+             
+            <ul class="navbar-nav mr-auto">
+                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a href="home.php" class="nav-link "><i class="fas fa-home"></i>Home</a>   
+                </li>
+                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                 <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target">
+                        <i class="fas fa-city"></i>Cities
+                       
+                    </a>   
+                     <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                         
+                          <a href="goa_villa.html" class="dropdown-item" target="_blank">Goa</a>
+                         
+                          <a href="manali_villa.html" class="dropdown-item">Manali</a>
+                          
+                          <a href="mysore_villa.html" class="dropdown-item">Mysore</a>
+                          
+                          <a href="udaipur_villa.html" class="dropdown-item">Udaipur</a>
+                    </div>
+                </li>
+                 
+                
+                 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                 <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a> 
+                 </li>   
+                
+                
+               
+              </ul>
+               
+                    <form>
+                        <div class="input-group">
+                        <input type="text">
+                        <div class="input-group-append">
+                        <input type="button" value="search" class="btn btn-success">
+                        </div>
+                        </div>
+                    </form> 
+              <button type="button" class="btn btn-dark float-right offset-1" data-toggle="modal" data-target="#model1"><a href="#"></a>Sign Up</button>
+              <button type="button" class="btn btn-dark float-right" data-toggle="modal" data-target="#model2"><a href="#"></a>Login</button>
+
+             &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    
+             </nav>    
+                    
+            
+        
+    
+        
+        <div class="top">
+            </br></br></br> </br></br>
+            <h1><b><font color="orange">Villas In GOA</font></b></h1></br>
+        </div>
+        
+        <br><br><br><br><br><br><br><br>
+           <div class="container">
+            <div class="card-deck">
+                <div class="card" id="c1"> 
+                    
+                <div class="card-body text-center">
+                    <img src="goa_villas_images/goavilla1.jpg"  class="card-img-top image-fluid" alt=""/>
+                    
+                    <h3>calangute retreat</h3>Goa, India<br><br>
+                    
+                   Situated just 10 minutes from the beautiful beach of Calangute,
+                   and surrounded by beautiful coconut trees this upmarket gated accommodation features a self-catered kitchen, 
+                   a landscaped swimming pool and kidâ€™s pool. 
+                   
+                   <br><br><br><br>
+                    
+               <div class="card-footer">
+                   &emsp;<a href="goa_interior1.html"><input type="button"  class="btn btn-primary" value="View Interior"></a>&emsp;
+                   <a href="payment.html"><input type="button"  class="btn btn-danger" value="Book Villa"></a>
+            
+               </div>
+               </div>
+               </div>
+            
+            
+               <div class="card" id="c1">
+                <div class="card-body text-center">
+                 <img src="goa_villas_images/goa_cara5.jpg"  class="card-img-top image-fluid" alt=""/>
+                 
+                 <h3>Xavier Villa</h3>Goa, India<br><br>
+                Those whose idea of the perfect holiday involves quality time spent with 
+                friends or family will adore this exceptional property. Boasting a wealth of private rooms,
+                a spacious garden and modern facilities.
+               
+                
+                <br><br><br><br><br>
+
+                  <div class="card-footer form-group">
+                         &emsp;<a href="goa_interior2.html"><input type="button"  class="btn btn-primary" value="View Interior"></a>&emsp;
+                              <a href="payment.html"><input type="button"  class="btn btn-danger" value="Book Villa"></a>
+                  </div>
+                </div>
+               </div>
+            
+               <div class="card" id="c1"> 
+                <div class="card-body text-center">
+                      <img src="goa_villas_images/goa_cara9.jpg"  class="card-img-top image-fluid" alt=""/>
+                      
+                      <h3>goaz villa</h3>Goa, India<br><br>
+                      
+                     The location of this community of private pool vilas is perfect,
+                     take a left to reach Baga Beach, a U-Turn lands you at Calangute,
+                     right turn would bring you to the Goa Mall and head straight to reach Vagator, perfecto!
+                    
+                     
+                      
+                     <br><br><br><br>
+                        <div class="card-footer">
+                            &emsp;<a href="goa_interior3.html"><input type="button"  class="btn btn-primary" value="View Interior"></a> &emsp;
+                                  <a href="payment.html"> <input type="button"  class="btn btn-danger" value="Book Villa"></a>
+                        </div>
+                </div>
+              </div>
+                
+                
+           </div>
+            
+        </div>
+        
+        
+    
+            <br> 
+                <br>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                                    <br>    <br>    <br>
+                                        <br>
+                                            <br>
+                                                <br>
+                                                    <br>
+                                                        <br>
+                                                            <br>
+                                                                <br>    <br>    <br>
+                                                                    <br>    <br>
+                                                                        <br>
+                                                                            <br>
+                                                                                <br>    <br>
+                                                                                    <br>
+                                                                                
+                                                                
+                                                                
+                                                                
+                                    
+                        
+    </body>
+</html>
+
+        
+        
+            
